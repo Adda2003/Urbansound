@@ -1,4 +1,4 @@
-##UrbanSound8K LSTM Training Pipeline
+# UrbanSound8K LSTM Training Pipeline
 # 1. Dataset & Problem Overview
 Goal: Classify short (≤4s) audio clips from the UrbanSound8K dataset into 10 urban sound categories (e.g., siren, dog bark, drilling).
 
