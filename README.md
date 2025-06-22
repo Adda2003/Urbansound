@@ -22,9 +22,7 @@ All feature sequences are padded or truncated to a maximum length of 400 frames 
 # 3. Labels
 The target label is an integer classID from 0–9, each mapping to a class:
 
-ini
-Copy
-Edit
+
 0 = air_conditioner
 1 = car_horn
 2 = children_playing
