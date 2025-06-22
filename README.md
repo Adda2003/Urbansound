@@ -1,5 +1,6 @@
 # UrbanSound8K LSTM Training Pipeline
 # 1. Dataset & Problem Overview
+
 Goal: Classify short (≤4s) audio clips from the UrbanSound8K dataset into 10 urban sound categories (e.g., siren, dog bark, drilling).
 
 Dataset structure:
@@ -9,6 +10,22 @@ Each clip belongs to one of 10 classes.
 Metadata CSV contains info about each clip, including filename, fold, label, etc.
 
 Audio files are organized as fold1 to fold10 folders, each containing .wav files.
+
+type the following commands in the terminal :
+
+cd ~/Urbansound
+mkdir -p cache/urbansound8k/raw
+unzip "archive (3).zip" -d cache/urbansound8k/raw
+
+then you should see : 
+
+After this, you should have:
+
+cache/urbansound8k/raw/fold1/
+cache/urbansound8k/raw/fold2/
+...
+cache/urbansound8k/raw/UrbanSound8K.csv
+
 
 # 2. Feature Extraction
 MFCCs (Mel-frequency cepstral coefficients):
